@@ -7,7 +7,7 @@ MAX_DELTA_VALUE = {'soc': 0.05, 'current': 0.1}
 SENSOR_VALIDATOR_CODES = {0: 'INVALID_SENSOR_INPUTS',
                           1: 'VALID_SENSOR_INPUTS',
                           2: {'soc': 'SOC_SENSOR_OK', 'current': 'CURRENT_SENSOR_OK'},
-                          3: {'soc': 'FAULTY_SOC_SENSOR', 'current': 'FAULTY_CURRENT_SENSOR'}
+                          3: {'soc': 'FAULTY_NOISY_SOC_SENSOR', 'current': 'FAULTY_NOISY_CURRENT_SENSOR'}
                           }
 
 
